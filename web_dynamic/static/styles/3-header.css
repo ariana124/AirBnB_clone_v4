@@ -4,8 +4,18 @@ header {
     width: 100%;
     border-bottom: 1px solid #CCCCCC;
 }
+
 header .logo {
     background: url("../images/logo.png") no-repeat;
     left: 20px;
     height: 100%;
+}
+
+#api_status {
+    /* Still need to add actual styling for the actual API status circle */
+    background-color: #cccccc;
+}
+
+#api_status.available {
+    background-color: #ff545f;
 }
