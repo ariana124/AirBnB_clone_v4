@@ -10,7 +10,7 @@ header {
     border-bottom: 1px solid #CCCCCC;
 }
 
-header div {
+#api_status {
     float: right;
     background-color: #cccccc;
     border: 1px;
